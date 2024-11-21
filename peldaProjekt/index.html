@@ -1,61 +1,46 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Freaddys Pizzéria</title>
-  <link rel="stylesheet" href="css.css">
+  <title>Freaddy's Pizzéria</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-  
+<body>
   <header>
-    <div class="logo">
-      <a href="#">
-        <img src="t.pizza.webp" alt="Freaddys Pizzéria">
-      </a>
-    </div>
+    <h1>Üdvözöljük a Freaddy's Pizzériában!</h1>
     <nav>
       <ul>
-        <li><a href="#home">Kezdőlap</a></li>
-        <li><a href="#menu">Pizzák</a></li>
-        <li><a href="#about">Rólunk</a></li>
-        <li><a href="#contact">Kapcsolat</a></li>
+        <li><a href="index.html">Kezdőlap</a></li>
+        <li><a href="menu.html">Étlap</a></li>
+        <li><a href="contact.html">Kapcsolat</a></li>
       </ul>
     </nav>
   </header>
 
+  <main>
+    <section class="intro">
+      <h2>Miért válassz minket?</h2>
+      <p>A Freaddy's Pizzéria a legfinomabb, friss alapanyagokból készült pizzákat kínálja! Gyere el és próbáld ki!</p>
+      <img src="coolpizza.jpg" alt="Friss pizza" class="responsive-img">
+    </section>
 
-  <section id="home" class="hero">
-    <h1>Üdvözöljük a Freaddys Pizzériában!</h1>
-    <p>Az ízek mesterei! Fedezd fel a legfinomabb pizzáinkat, friss alapanyagokkal!</p>
-  </section>
-
-  
- 
-
-
-  <section id="about" class="about">
-    <h2>Rólunk</h2>
-    <p>A Freaddys Pizzéria már évek óta a legjobb pizzákat kínálja a városban. Különleges alapanyagokkal, szeretettel készítjük el pizzáinkat minden kedves vendégünk számára. A célunk, hogy minden falat örömet szerezzen!</p>
-  </section>
-
-  
-  <section id="contact" class="contact">
-    <h2>Kapcsolat</h2>
-    <p>Ne habozz, vedd fel velünk a kapcsolatot és próbáld ki a legfinomabb pizzáinkat!</p>
-    <form>
-      <input type="text" placeholder="Neved" required>
-      <input type="email" placeholder="Email címed" required>
-      <textarea placeholder="Üzenet" required></textarea>
-      <button type="submit">Küldés</button>
-    </form>
-  </section>
-
+    <section class="promo">
+      <h2>Akciók</h2>
+      <p>Jelenlegi akcióink:</p>
+      <ul>
+        <li>2 pizzát vásárolj, a harmadikat ingyen kapod!</li>
+        <li>Házhoz szállítás ingyenes 10 km-en belül!</li>
+      </ul>
+      <img src="akcio.jpeg" alt="Akciók banner" class="responsive-img">
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2024 Freaddys Pizzéria. Minden jog fenntartva.</p>
+    <p>&copy; 2024 Freaddy's Pizzéria. Minden jog fenntartva.</p>
   </footer>
-
 </body>
+
 </html>
